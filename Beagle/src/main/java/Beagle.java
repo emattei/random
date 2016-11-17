@@ -8,7 +8,7 @@ public class Beagle {
     	staticFileLocation("/public");
     	String path = Test.class.getProtectionDomain().getCodeSource().getLocation().getPath();
     	
-        get("/hello", (req, res) -> 
+        get("/", (req, res) -> 
         "<!DOCTYPE html>" +
         "<meta charset=\"utf-8\">" +
         "<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/fornac.css\" media=\"screen\" />"+
